@@ -1,7 +1,8 @@
 # Hibernate-Spring-
-## [專案負責部分pdf介紹](https://drive.google.com/file/d/1o_waNAihJx0Qv4za-GUu9IJDhaYL5xXG/view?usp=sharing)
-
-## [專案負責部分影片介紹](https://www.youtube.com/watch?v=ucJHwV3ladU)
+### [專案負責部分pdf介紹](https://drive.google.com/file/d/1o_waNAihJx0Qv4za-GUu9IJDhaYL5xXG/view?usp=sharing)
+![個人專題pdf qrcode](https://user-images.githubusercontent.com/108620186/192589174-9e5f7514-ffba-4886-ac7a-1fe5ce9f1dbb.png)
+### [專案負責部分影片介紹](https://www.youtube.com/watch?v=ucJHwV3ladU)
+![專題youtube QRCODE](https://user-images.githubusercontent.com/108620186/192589190-b66b1ec7-b227-4411-b16b-47a14547a204.png)
 
 ## 使用Hiberbate + Spring 將所負責部分進行改寫
 ### 負責項目： 購物車(套件名:cart) / 訂單管理(套件名:orderlist、orderdetail)/ 優惠券(套件名:coupontype、memcoupon)
