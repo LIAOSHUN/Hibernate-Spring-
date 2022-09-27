@@ -1,5 +1,5 @@
 # Hibernate-Spring-
-## 專案負責部分pdf介紹[]([https://](https://drive.google.com/file/d/1o_waNAihJx0Qv4za-GUu9IJDhaYL5xXG/view?usp=sharing))
+## [專案負責部分pdf介紹](https://drive.google.com/file/d/1o_waNAihJx0Qv4za-GUu9IJDhaYL5xXG/view?usp=sharing)
 ## 使用Hiberbate + Spring 將所負責部分進行改寫
 負責部分為以下套件:coupontype 、 cart 、 memcoupon 、 orderlist、orderdetail
 ## Hiberbate
