@@ -53,9 +53,7 @@ public class CartServlet extends HttpServlet {
 					// 讓每的頁面可以透過sessionId呼叫CartService的方法
 					session.setAttribute("sessionId", userCookie.getValue());
 					
-					String url = "/frontend/cart/testpro.jsp";
-					RequestDispatcher rd = req.getRequestDispatcher(url);
-					rd.forward(req, res);
+				
 					return;
 				}
 
@@ -64,13 +62,12 @@ public class CartServlet extends HttpServlet {
 				Cookie shoppingCart = new Cookie("shoppingCart", session.getId());
 				shoppingCart.setMaxAge(3 * 24 * 60 * 60); // 存活3天，以秒為單位
 				shoppingCart.setHttpOnly(true); 
-
+				shoppingCart.setPath("/cga103g3");
+				
 				session.setAttribute("sessionId", session.getId());
 				res.addCookie(shoppingCart);
 
-				String url = "/frontend/cart/testpro.jsp";
-				RequestDispatcher rd = req.getRequestDispatcher(url);
-				rd.forward(req, res);
+
 			}
 		}
 		
