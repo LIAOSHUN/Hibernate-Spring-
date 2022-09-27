@@ -1,7 +1,8 @@
 # Hibernate-Spring-
 ## [專案負責部分pdf介紹](https://drive.google.com/file/d/1o_waNAihJx0Qv4za-GUu9IJDhaYL5xXG/view?usp=sharing)
+##　[專案負責部分影片介紹](https://www.youtube.com/watch?v=ucJHwV3ladU)
 ## 使用Hiberbate + Spring 將所負責部分進行改寫
-負責部分為以下套件:coupontype 、 cart 、 memcoupon 、 orderlist、orderdetail
+### 負責項目： 購物車(套件名:cart) / 訂單管理(套件名:orderlist、orderdetail)/ 優惠券(套件名:coupontype、memcoupon)
 ## Hiberbate
 ### 1.設定pom.xml()，在<dependencies> 中加⼊Hibernate Library相關<dependency>
 ### 2.設定Hibernate相關組態檔(hibernate.cfg.xml)
