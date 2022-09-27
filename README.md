@@ -188,3 +188,13 @@ public class CouponTypeDAO implements CouponTypeDAO_interface{
 		...略		
 	}
 ```
+
+
+![image](https://user-images.githubusercontent.com/108620186/192571435-0f808cb7-ff6c-4657-847b-6f4f2bcb3f31.png)
+--- 
+![image](https://user-images.githubusercontent.com/108620186/192571705-25836f8b-b124-4fff-9a80-edcef3476c7f.png)
+--- 
+![image](https://user-images.githubusercontent.com/108620186/192572036-6057542d-be02-481e-a77d-b3699538ad87.png)
+--- 
+![image](https://user-images.githubusercontent.com/108620186/192572252-bf529c3c-f9d0-42a5-8c4d-02a9559f66d9.png)
+
