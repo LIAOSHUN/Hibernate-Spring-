@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>Web Application from Archetype for Servlet 3.1</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+
+	<servlet>
+		<servlet-name>ScheduleServlet1</servlet-name>
+		<servlet-class>com.coupontype.controller.ScheduleServlet</servlet-class>
+		<load-on-startup>10</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ScheduleServlet1</servlet-name>
+		<url-pattern>/ScheduleServlet1</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>CouponTypeServlet</servlet-name>
+		<servlet-class>com.coupontype.controller.CouponTypeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CouponTypeServlet</servlet-name>
+		<url-pattern>/backend/coupontype/coupontype.do</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>MyCouponServlet</servlet-name>
+		<servlet-class>com.memcoupon.controller.MyCouponServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyCouponServlet</servlet-name>
+		<url-pattern>/frontend/memcoupon/mycoupon.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MyCouponServlet</servlet-name>
+		<url-pattern>/backend/coupontype/mycoupon.do</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<servlet>
+		<servlet-name>CartServlet</servlet-name>
+		<servlet-class>com.cart.controller.CartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CartServlet</servlet-name>
+		<url-pattern>/frontend/cart/cart.do</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<servlet>
+		<servlet-name>GetCartServlet</servlet-name>
+		<servlet-class>com.cart.controller.GetCartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetCartServlet</servlet-name>
+		<url-pattern>/frontend/cart/getCart.do</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>DcartServlet</servlet-name>
+		<servlet-class>com.cart.controller.DcartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DcartServlet</servlet-name>
+		<url-pattern>/frontend/cart/dcart.do</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>CheckoutServlet</servlet-name>
+		<servlet-class>com.cart.controller.CheckoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckoutServlet</servlet-name>
+		<url-pattern>/frontend/cart/checkout.do</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>OrderListServlet</servlet-name>
+		<servlet-class>com.orderlist.controller.OrderListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrderListServlet</servlet-name>
+		<url-pattern>/backend/orderlistback/orderListServlet.do</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>ActServlet</servlet-name>
+		<servlet-class>com.act.controller.ActServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ActServlet</servlet-name>
+		<url-pattern>/backend/act/act.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ActRegisServlet</servlet-name>
+		<servlet-class>com.actregis.controller.ActRegisServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ActRegisServlet</servlet-name>
+		<url-pattern>/backend/actregis/actregis.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>ActRegisServlet</servlet-name>
+		<url-pattern>/frontend/actregis/actregis.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ActImgServlet</servlet-name>
+		<servlet-class>com.actimg.controller.ActImgServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ActImgServlet</servlet-name>
+		<url-pattern>/backend/actimg/actimg.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>ActImgServlet</servlet-name>
+		<url-pattern>/frontend/actimg/actimg.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ProductServlet</servlet-name>
+		<servlet-class>com.product.controller.ProductServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductServlet</servlet-name>
+		<url-pattern>/backend/product/product.do</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<servlet>
+		<servlet-name>ProductImgServlet</servlet-name>
+		<servlet-class>com.product.controller.ProductImgServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductServlet</servlet-name>
+		<url-pattern>/backend/productimg/productimg.do</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<servlet>
+		<servlet-name>ShowproductimgServlet</servlet-name>
+		<servlet-class>com.productimg.controller.showproductimg</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowproductimgServlet</servlet-name>
+		<url-pattern>/backend/productimg/showproductimg.do</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<servlet-class>com.employee.controller.EmployeeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<url-pattern>/employee/employee.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>MemberServlet</servlet-name>
+		<servlet-class>com.member.controller.MemberServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MemberServlet</servlet-name>
+		<url-pattern>/member/member.do</url-pattern>
+	</servlet-mapping>
+
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+
+	<context-param>
+		<param-name>contextClass</param-name>
+		<param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>core.config.SpringConfig</param-value>
+	</context-param>
+
+
+<!-- 	解決在jsp上顯示entity中的資料中的lazy loading-->
+	<filter>
+		<filter-name>HibernateFilter</filter-name>
+		<filter-class>org.springframework.orm.hibernate5.support.OpenSessionInViewFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>HibernateFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+</web-app>
+
+

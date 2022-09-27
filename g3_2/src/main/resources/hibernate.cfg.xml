@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+<!-- 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property> -->
+<!-- 		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/boardgame?serverTimezone=Asia/Taipei</property> -->
+<!-- 		<property name="hibernate.connection.username">root</property> -->
+<!-- 		<property name="hibernate.connection.password">CGA103g3</property> -->
+		
+		<property name="hibernate.connection.datasource">java:comp/env/jdbc/boardgame</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+		
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+		<property name="hibernate.format_sql">true</property>
+		<property name="hibernate.show_sql">true</property>
+		
+		<mapping class="com.coupontype.model.CouponTypeVO"/>
+		<mapping class="com.memcoupon.model.MemCouponVO"/>
+		<mapping class="com.orderlist.model.OrderListVO"/>
+		<mapping class="com.orderdetail.model.OrderDetailVO"/>
+		<mapping class="com.product.model.ProductVO"/>
+		<mapping class="com.cart.model.MemberVO_cart"/>
+		<mapping class="com.membergrade.model.MemberGradeVO"/>
+	</session-factory>
+</hibernate-configuration>
